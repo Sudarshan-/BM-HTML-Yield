@@ -1,0 +1,24 @@
+{
+    "name": "HTML Yield",
+    "description": "This Yields BM HTML Output",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "page_action": {
+        "default_icon": "html.jpeg",
+        "default_title": "HTML Yield"
+    },
+    "icons": {
+        "16": "html.jpeg",
+        "48": "html.jpeg",
+        "128": "html.jpeg"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "htmlyield.js"
+        ]
+    }
+}
